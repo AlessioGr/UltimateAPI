@@ -39,15 +39,7 @@ public class UltimateAPI extends JavaPlugin {
 		String type = cfg.getString("Database.type");
 		int size = cfg.getInt("Database.timeout");
 		int pool = cfg.getInt("Database.poolsize");
-    	
-		this.getLogger().info("host -> "+host);
-		this.getLogger().info("port -> "+port);
-		this.getLogger().info("database -> "+database);
-		this.getLogger().info("user -> "+username);
-		this.getLogger().info("password -> "+password);
-		this.getLogger().info("size -> "+size);
-		this.getLogger().info("pool -> "+pool);
-        
+ 
         init  = this.getInstance().getInit();
 		if (getInit().getDataSource() == null || getInit().isClosed()) {
 			getInit().initDatabase(new HikariAuthentication(host, port, database, username, password), type, size, pool);

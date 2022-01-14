@@ -20,7 +20,7 @@ Config:
   
   user: "root"
   
-  password: "6Vq7fmLJjNFmjmdf"
+  password: "pw"
 
 Database:
   type: "MYSQL"
