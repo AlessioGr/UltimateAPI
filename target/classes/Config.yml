@@ -10,6 +10,12 @@
 #| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
 # '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
 
+#change on own risk
+ExecutorServiceThreads: 1
+
+#check if the connection still exist after 600 seconds
+CheckConnectionEvery: 600
+
 Config:
 
   host: "localhost"

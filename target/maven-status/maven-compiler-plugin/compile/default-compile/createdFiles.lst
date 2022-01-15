@@ -1,9 +1,15 @@
 de\warsteiner\datax\utils\Metrics$SimplePie.class
 de\warsteiner\datax\utils\Metrics$JsonObjectBuilder.class
 de\warsteiner\datax\utils\Metrics$AdvancedPie.class
+de\warsteiner\datax\UltimateAPI$1.class
 de\warsteiner\datax\utils\statements\SQLStatementAPI$ThrowingFunction.class
+de\warsteiner\datax\utils\command\UltimateSubCommandRegistry.class
 de\warsteiner\datax\utils\Metrics$JsonObjectBuilder$JsonObject.class
 de\warsteiner\datax\utils\Metrics$SingleLineChart.class
+de\warsteiner\datax\command\sub\HelpSub.class
+de\warsteiner\datax\command\sub\CheckSub.class
+de\warsteiner\datax\utils\command\UltimateSubCommand.class
+de\warsteiner\datax\utils\Messages.class
 de\warsteiner\datax\utils\statements\SQLStatementAPI$ThrowingConsumer.class
 de\warsteiner\datax\utils\DataBaseAPI.class
 de\warsteiner\datax\utils\YamlConfigFile.class
@@ -11,9 +17,12 @@ de\warsteiner\datax\utils\hikari\HikariAuthentication.class
 de\warsteiner\datax\utils\hikari\SQLTypes.class
 de\warsteiner\datax\utils\statements\StatementQuery.class
 de\warsteiner\datax\utils\hikari\HikariSetup.class
+de\warsteiner\datax\command\UltimateTabComplete.class
 de\warsteiner\datax\utils\Metrics$MetricsBase.class
 de\warsteiner\datax\utils\Metrics$DrilldownPie.class
 de\warsteiner\datax\utils\UpdateChecker.class
+de\warsteiner\datax\command\sub\DiscordSub.class
+de\warsteiner\datax\command\sub\VersionSub.class
 de\warsteiner\datax\utils\Metrics$CustomChart.class
 de\warsteiner\datax\UltimateAPI.class
 de\warsteiner\datax\database\DatabaseInit.class
@@ -22,5 +31,6 @@ de\warsteiner\datax\utils\Metrics.class
 de\warsteiner\datax\utils\statements\ConnectionType.class
 de\warsteiner\datax\utils\Metrics$SimpleBarChart.class
 de\warsteiner\datax\utils\statements\SQLStatementAPI.class
+de\warsteiner\datax\command\UltimateCommand.class
 de\warsteiner\datax\utils\Metrics$AdvancedBarChart.class
 de\warsteiner\datax\utils\MapSorting.class

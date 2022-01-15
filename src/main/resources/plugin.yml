@@ -1,7 +1,8 @@
 main: de.warsteiner.datax.UltimateAPI
-version: 0.1.1-SNAPSHOT
+version: 0.1.2-SNAPSHOT
 name: UltimateAPI
 author: Warsteiner37 
 api-version: 1.18
 
-commands: 
+commands:
+  ultimateapi:
