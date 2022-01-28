@@ -12,9 +12,9 @@ public class Messages {
 		sender.sendMessage("§7");
 		sender.sendMessage(" §8| §9UltimateAPI §8- §4Admin Help §8|"); 
 		sender.sendMessage("§8-> §6/Ultimateapi help"); 
-		sender.sendMessage("§8-> §6/Ultimateapi version"); 
-		sender.sendMessage("§8-> §6/Ultimateapi discord");
+		sender.sendMessage("§8-> §6/Ultimateapi version");  
 		sender.sendMessage("§8-> §6/Ultimateapi check");
+		sender.sendMessage("§8-> §6/Ultimateapi plugins");
 		sender.sendMessage("§7");
 	}
 	

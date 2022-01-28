@@ -1,6 +1,6 @@
 package de.warsteiner.datax.utils;
   
-import de.warsteiner.datax.utils.statements.SQLStatementAPI;
+import de.warsteiner.datax.utils.statements.SQLStatementAPI; 
  
 public class DataBaseAPI {
  
@@ -10,5 +10,6 @@ public class DataBaseAPI {
         if (sqlStatementAPI == null) sqlStatementAPI = new SQLStatementAPI();
         return sqlStatementAPI;
     }
+     
 
 }

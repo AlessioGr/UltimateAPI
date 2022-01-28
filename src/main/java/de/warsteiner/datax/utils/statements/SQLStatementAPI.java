@@ -4,7 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.function.Consumer;
+
+import de.warsteiner.datax.UltimateAPI;
 
 public class SQLStatementAPI {
     private ConnectionType type;
@@ -16,6 +19,17 @@ public class SQLStatementAPI {
     public ConnectionType getType() {
         return type;
     }
+    
+    public ResultSet Query(String q) {
+		ResultSet rs = null;
+		try {
+			Statement t = UltimateAPI.getInstance().getConnection();
+			rs = t.executeQuery(q); 
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return rs;
+	}
 
     /**
      * Execute an SQL query with a result set and prepared statement
