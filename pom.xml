@@ -41,7 +41,12 @@
   <plugins>
     <plugin>
       <artifactId>maven-assembly-plugin</artifactId>
+
       <configuration>
+<properties>
+ <maven.compiler.source>1.8</maven.compiler.source>
+ <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
         <archive>
           <manifest>
             <mainClass>de.warsteiner.datax.UltimateAPI</mainClass>
